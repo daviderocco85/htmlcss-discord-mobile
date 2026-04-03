@@ -14,9 +14,11 @@ body {
   
 
 /* Banner Header*/
+
 img {
-    margin-bottom: 50px;
-    width: 100%;   
+    display: block;
+    margin: 0 auto 50px auto;
+    width: 512px;
 }
 
 
