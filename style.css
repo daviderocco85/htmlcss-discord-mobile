@@ -108,7 +108,7 @@ p {
 .card-view #cube,#eyes{
   position: absolute;
   top: -30px;
-  left: 40px;
+  left: -160px;
   right: 50px;
   width: 60px;
   height: 60px;
