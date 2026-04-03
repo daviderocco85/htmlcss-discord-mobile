@@ -13,4 +13,4 @@ Recreated a Discord-inspired mobile layout with a responsive design using HTML a
 
 # Discord-Mobile Exercise Example
 
-![Discord](assets/screenshoot)
+![Discord](assets/screenshot.png)
