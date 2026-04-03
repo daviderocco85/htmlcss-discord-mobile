@@ -1,0 +1,115 @@
+/* Base Settings Page */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+/*  Body Layout */
+body {
+  background: #191d7b; 
+  line-height: 1;
+  font-family: "DM Sans", sans-serif;
+}
+  
+
+/* Banner Header*/
+img {
+    margin-bottom: 50px;
+    width: 100%;   
+}
+
+
+/* Download Area or Open Browser*/
+#group {
+  width: 500px; 
+  margin: 50px auto;
+  text-align: center; 
+}
+
+button.download {
+  height: 50px;
+  width: 350px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.download i {
+  margin-right: 8px;
+}
+
+
+button.open {
+  color: #ffffff;
+  height: 50px;
+  width: 350px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: #5865f2;
+}
+
+/*Font Feature*/
+
+h2 {
+  font-family: "Sigmar", sans-serif;
+  font-size: 35px;
+  color: #ffffff;
+  text-transform: uppercase; 
+}
+
+
+p {
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 10px;
+  line-height: 1,5;
+}
+
+
+
+/*Cards Settings*/
+
+.card-view  {
+  position: relative;
+  padding:30px 30px;
+  margin: 50px auto;
+  gap: 15px; 
+  border-radius: 20px;
+  background:linear-gradient(135deg, #5865f2 0%, #4e54c8 50%, #3b3f99 100%);
+  width: 412px;
+  height: 600px;
+ }
+
+/*Media Settings*/
+ .video-wrapper {
+  width: 358px;
+  height: 258px;
+  margin-top: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+ .video-wrapper video {
+  width: 358px;
+  height: 258px;
+  object-fit: cover;
+}
+  
+/*Icon Settings*/
+.card-view #cube,#eyes{
+  position: absolute;
+  top: -30px;
+  left: 40px;
+  right: 50px;
+  width: 60px;
+  height: 60px;
+}
+
+
