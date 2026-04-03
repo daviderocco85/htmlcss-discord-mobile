@@ -46,7 +46,9 @@ button.download {
 }
 
 
-button.open {
+a.open {
+  display: inline-block; 
+  line-height: 50px; 
   color: #ffffff;
   height: 50px;
   width: 350px;
@@ -54,6 +56,7 @@ button.open {
   border-radius: 10px;
   font-size: 18px;
   background-color: #5865f2;
+  text-decoration: none; 
 }
 
 /*Font Feature*/
